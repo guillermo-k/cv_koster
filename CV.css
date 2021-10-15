@@ -4,19 +4,19 @@
     font-family: sans-serif, arial;
     line-height: 1.5rem;
     font-size: 1.2rem;
+    background-color: black;
+    color: gold;
 }
 span{
     padding: 0px;
 }
 button{
     border-radius: .7rem;
-    background-color: rgb(76, 243, 131);
+    background-color: goldenrod;
     color: rgb(19, 18, 18);
     font-size: large;
 }
-body{
-    background-color:rgb(81, 202, 33);
-}
+
 #datos{
     vertical-align: top;
 }
@@ -88,7 +88,20 @@ ul{
 nav{
     grid-column: 1/-1;
     grid-row: 3/4;
+    text-align: center;
+}
 
+
+.m{
+    color: red;
+}
+
+.w{
+    color: #00bb2d;
+}
+
+.l{
+    color:#0e76a8;
 }
 
 .experiencias{
@@ -98,7 +111,7 @@ nav{
     /* overflow: hidden; */
     animation-duration: 2s;
     animation-name: izquierda;
-    color:rgb(81, 202, 33);
+    color:black;
     font-display: block;
     animation-fill-mode: forwards;
 }
@@ -107,7 +120,7 @@ nav{
         padding-left: 100%;
     }
     to{
-        color: black;
+        color: gold;
         padding-left: 0%;
         
     }
@@ -118,7 +131,7 @@ nav{
     animation-name: derecha;
     animation-fill-mode: forwards;
     animation-delay: 4s;
-    color:rgb(81, 202, 33);
+    color:black;
 }
 @keyframes derecha {
     from{
@@ -127,7 +140,7 @@ nav{
         color: blueviolet;
     }
     to{
-        color: black;
+        color: gold;
     }
 }
 .arriba{
@@ -135,7 +148,7 @@ nav{
     animation-duration: 2s;
     animation-name: arriba;
     animation-fill-mode: forwards;
-    color:rgb(81, 202, 33);
+    color:black;
     animation-delay: 2s;
 }
 @keyframes arriba {
@@ -143,7 +156,7 @@ nav{
             padding-left: 100%;
         }
         to{
-            color: black;
+            color: gold;
             padding-left: 0%;
             
         }
