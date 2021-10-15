@@ -111,7 +111,7 @@ nav{
 }
 .izquierda{
     /* overflow: hidden; */
-    animation-duration: 2s;
+    animation-duration: 1.5s;
     animation-name: izquierda;
     color:black;
     font-display: block;
@@ -129,10 +129,10 @@ nav{
 }
 .derecha{
     z-index: 2;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
     animation-name: derecha;
     animation-fill-mode: forwards;
-    animation-delay: 4s;
+    animation-delay: 3s;
     color:black;
 }
 @keyframes derecha {
@@ -147,11 +147,11 @@ nav{
 }
 .arriba{
     z-index: 1;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
     animation-name: arriba;
     animation-fill-mode: forwards;
     color:black;
-    animation-delay: 2s;
+    animation-delay: 1.5s;
 }
 @keyframes arriba {
         from{
