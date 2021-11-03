@@ -109,6 +109,9 @@ nav{
 .g{
     color: #fff;
 }
+.t{
+    color:blue;
+}
 
 .experiencias{
     grid-row: 4/5;
