@@ -65,6 +65,11 @@ header ul {
     margin-left: 2vw;
     display: inline-block;
 }
+
+header{
+    margin-bottom: 2rem;
+}
+
 .datos li li{
     margin-left: -7vw;
     margin-top: 2vw;
